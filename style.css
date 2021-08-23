@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+  text-align: center;
+  color: white;
+  background: black;
+  align-items: center;
+}
+
+.title{
+  font-size: 5.25rem;
+}
+
+p{
+  font-size: sans-serif;
+  font-size: 2.25rem;
+}
+
+.download-button{
+  background: #00e1f3;
+    border-radius: 12px;
+    border: none;
+    color: black;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    outline-offset: 4px;
+}
+.dbt{
+  padding: 12px 42px;
+  font-family: sans-serif,Sans-Serif ;
+    border-radius: 12px;
+    font-size: 5.25rem;
+    background: rgb(0,188,240);
+    color: black;
+    transform: translateY(-6px);
+  }
+
+  .download-button:active .dbt {
+    transform: translateY(-2px);
+}
